@@ -1,0 +1,63 @@
+use effect is also useful
+just write useEffect it will automatic write the whhole function
+
+ternary operators
+
+condition ? (<p></p>): ()
+
+
+
+hooks
+-use state and other react features without using the class
+
+props
+
+1st function
+<Greet name="Raj" heroName="Munna">
+<p>this is the children componet</p>
+
+</Greet>
+<Greet name="patel" heroName="patidar">
+<button>Click </button>
+
+</Greet>
+
+const Greet=props =>{
+    return (
+        <>
+        <h1>hello  {props.name} a.k.a {props.heroName}</h1>
+        {props.children}
+
+
+        </>
+        )
+}
+
+
+
+
+Class componet
+<welcome name="Raj" heroName="Munna">
+you have to use this with class
+
+class Welcome extends componet{
+    render(){
+        return <h1>Welcome {this.props.name} a.k.a {this.props.heroName}</h1>
+    }
+}
+
+
+
+props-----functional componet
+this.props--class componet
+
+
+state of the componet
+useState Hook-----functional componets
+this.state---class componet
+
+create a new file
+message.js
+
+
+

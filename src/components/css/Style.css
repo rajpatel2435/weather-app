@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e; 
+}
+
+.inputData{
+    width: 320px;
+    height: 380px;
+    background-color: #feffe2;
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+}
+
+.inputField{
+    font-size: 20px;
+    margin-bottom: 55px;
+    color: rgb(69, 8, 236);
+    font-weight: bolder;
+    border-radius: 5px solid blue;
+}
+
+
+.location{
+    color: rgb(255, 75, 4);
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.temp{
+    margin-top: 15px;
+    margin-left: 50px;
+    color: rgb(243, 8, 27);
+    font-size: 45px;
+}
+
+.tempmin_max{
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card__img{
+    position:absolute;
+    width: 260px;
+    height: 260px;
+}
+
+.img3{
+    margin-top: -125px;
+    margin-left: 25px;
+}
